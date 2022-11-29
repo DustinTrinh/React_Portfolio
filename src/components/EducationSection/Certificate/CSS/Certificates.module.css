@@ -1,0 +1,9 @@
+.certImg{
+        max-height: 240px;
+}
+
+.certContent li{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 5px;
+}

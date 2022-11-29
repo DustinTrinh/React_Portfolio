@@ -1,0 +1,26 @@
+.skillSection{
+    border-radius: 25px;
+}
+
+.iconSizing{
+    font-size: 25px;
+    color: #000000;   
+}
+
+.skillsName span{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.FE_icon{
+    background: linear-gradient(#f5efef,#feada6) !important;
+}
+
+.BE_icon{
+    background: linear-gradient(#f5efef,#feada6) !important;
+}
+
+.OT_icon{
+    background: linear-gradient(#f5efef,#feada6) !important;
+}

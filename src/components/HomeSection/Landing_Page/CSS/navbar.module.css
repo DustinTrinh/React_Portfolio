@@ -1,0 +1,28 @@
+body {
+    background: #eef;
+}
+
+#nav {
+    color: red;
+}
+
+a.nav_link:link {
+    text-decoration: none;
+}
+
+a.nav_link:hover {
+    color: yellow;
+}
+a.nav_link:active {
+    color: "#E55B00";
+  }
+
+.nav_menu-spacer {
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    color: gray;
+}
+
+#nav a:hover {
+    color: red;
+}

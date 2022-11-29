@@ -1,0 +1,29 @@
+.jobDesc ul li{
+    font-size: 14px;
+}
+
+.jobTimeline p{
+    font-size: 20px;
+}
+
+.workExperienceItem ul li{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.iconPlacement {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50%;
+}
+
+.iconPlacement_CGI {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.iconStyle{
+    width: 100% !important;
+    height: 100% !important;
+    color: red;
+}

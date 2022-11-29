@@ -1,0 +1,35 @@
+
+.cardWrapper {
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.cardWrapper .CardLayout{
+    max-width: 1000px;
+    max-height: 1000px;
+    width: 400px;
+    height: 300px;
+}
+
+.spinner {
+    animation: spin infinite 5s linear;
+
+    /*You can increase or decrease the timer (5s) to 
+     increase or decrease the speed of the spinner*/
+  }
+
+.iconSpec{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    color: white;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
