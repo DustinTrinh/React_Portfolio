@@ -1,3 +1,11 @@
 .header_{
-    padding-top: 40px;
+    padding-top: 80px;
+}
+
+.about_me_wrapper{
+    position: sticky;
+}
+
+.sectionContainer {
+    padding-bottom: 50px;
 }

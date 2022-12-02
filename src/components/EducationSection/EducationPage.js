@@ -1,13 +1,11 @@
 import React, { Fragment } from "react";
-import { Grid } from "@mui/material";
 
 import EducationTabs from "./Tabs/JS/EducationTabs";
-import Landing_Page from "./Landing_Page/JS/Landing_Page";
-
+import LandingPage from "./LandingPage/JS/LandingPage";
 const EducationPage = () => {
     return (
         <Fragment>
-            <Landing_Page/>
+            <LandingPage/>
             <EducationTabs/>
         </Fragment>
     );

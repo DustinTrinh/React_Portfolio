@@ -1,6 +1,12 @@
 .sideBar button{
-    font-size: 14px;
+    font-size: 12px;
+    font-family: 'Roboto Mono';
 }
+
+.sideBar button:hover{
+  background-color: #b98ea7;
+}
+
 
 .tabPanel p{
     font-size: 12px;
@@ -65,4 +71,8 @@
   
   .techTable{
     margin-bottom: 30px;
+  }
+
+  .projectContainer{
+    padding-top: 50px;
   }

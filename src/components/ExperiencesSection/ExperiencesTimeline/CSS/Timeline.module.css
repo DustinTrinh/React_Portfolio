@@ -6,6 +6,11 @@
     font-size: 20px;
 }
 
+.jobTimeline h3, h4{
+    color: black !important;
+    font-weight: bold;
+}
+
 .workExperienceItem ul li{
     margin-top: 10px !important;
     margin-bottom: 10px !important;

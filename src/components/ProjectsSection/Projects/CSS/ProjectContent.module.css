@@ -1,0 +1,12 @@
+.contents h1{
+    font-family: 'Roboto Mono';
+}
+
+.contents th{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contents p, a, li, td{
+    font-size: 14px !important;
+}

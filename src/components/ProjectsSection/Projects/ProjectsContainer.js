@@ -1,15 +1,14 @@
 import * as React from "react";
-import PropTypes from "prop-types";
-import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import TabPanel from "@mui/lab/TabPanel";
 import TabList from "@mui/lab/TabList";
 import TabContext from "@mui/lab/TabContext";
+import Divider from '@mui/material/Divider';
 
 import classes from "./CSS/ProjectContainer.module.css";
+import contentClasses from "./CSS/ProjectContent.module.css";
 import projects from "assets/Data/Projects_Data";
 import IntroductionTab from "./JS/IntroductionTab";
 
@@ -32,7 +31,7 @@ export default function ProjectsContainer() {
 
     return (
         <React.Fragment>
-            <Box id="projects_tab" sx={{ width: "100%", typography: "body1" }}>
+            <Box id="projects_tab" sx={{ width: "100%", typography: "body1"}} className={classes.projectContainer}>
                 <TabContext value={value}>
                     <Grid container spacing={0}>
                         <Grid item xs={2}>
@@ -47,13 +46,18 @@ export default function ProjectsContainer() {
                                     onChange={handleChange}
                                     centered
                                     orientation="vertical"
+                                    className={classes.sideBar}
+                                    textColor="secondary"
+        indicatorColor="secondary"
                                 >
                                     <Tab value="intro" label="Instructions"/>
                                     {tabs}
                                 </TabList>
                             </Box>
+                            <Divider orientation="vertical" flexItem/>
                         </Grid>
-                        <Grid item xs={10}>
+                        
+                        <Grid item xs={10} className={contentClasses.contents}>
                             <TabPanel value="intro">
                                 <IntroductionTab/>
                             </TabPanel>

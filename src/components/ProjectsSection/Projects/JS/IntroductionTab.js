@@ -32,9 +32,9 @@ const IntroductionTab = () => {
                     </ol>
 
                     <h4> <IoBriefcase/>&nbsp;Work Projects</h4>
-                    <Alert variant="outlined" severity="info">
-                        These projects are to display my experiences and technology stacks that I used.
-                        No confidential information is being displayed nor any code are being shown!
+                    <Alert sx={{fontSize: 12}} variant="outlined" severity="info">
+                        <i>These projects are to display my experiences and technology stacks that I used.
+                        No confidential information is being displayed nor any code are being shown!</i>
                     </Alert>
                     <ol>
                         <li>Pager Schedule @ CGI</li>

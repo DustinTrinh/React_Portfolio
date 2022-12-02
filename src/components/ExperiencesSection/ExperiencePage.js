@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
-import Landing_Page from "./Landing_Page/JS/Landing_Page";
+import LandingPage from "./LandingPage/JS/LandingPage";
 import ExperienceTimeline from "./ExperiencesTimeline/JS/WorkExperienceTimeline";
+import WorkExperience from "assets/Data/WorkExperience";
 
 const ExperiencePage = () => {
     return(
         <Fragment>
-            <Landing_Page/>
-            <ExperienceTimeline/>
+            <LandingPage/>
+            <ExperienceTimeline exp={WorkExperience}/>
         </Fragment>
     )
 }

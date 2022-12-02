@@ -5,11 +5,11 @@
 .tabHeader button{
     text-align: center;
     font-size: 15px;
-    font-family: 'opensans-bold', sans-serif;
+    font-family: 'Roboto Mono';
 }
 
 .tabHeader button:hover{
-    background: linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+    background: #b98ea7;
 }
 
 .tabContent{

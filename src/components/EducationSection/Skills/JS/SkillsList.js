@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
@@ -17,13 +17,14 @@ export default function SkillsList(props) {
     let avatarClass = "";
     
     if(props.category === "FE"){
-        avatarClass = "background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(295, 94%, 76%, 1) 100%)";
+        avatarClass = "background: linear-gradient(45deg, #c96881 0%,#f7b695 100%) !important";
     }
     else if(props.category === "BE"){
-        avatarClass = "background: linear-gradient(90deg, hsla(211, 66%, 87%, 1) 0%, hsla(348, 67%, 88%, 1) 50%, hsla(272, 26%, 72%, 1) 100%)";
+        avatarClass = "background: linear-gradient(45deg, #7b93eb 0%, #70f0f4 100%)!important;";
     }
     else if(props.category === "OT"){
-        avatarClass = "background: linear-gradient(90deg, hsla(42, 93%, 57%, 1) 0%, hsla(358, 78%, 62%, 1) 100%)";
+        avatarClass = "background: linear-gradient(45deg, #32c873 0%, #8df2bf 100%) !important";
+        
     }
 
     const Icon = (props) => {
@@ -53,7 +54,7 @@ export default function SkillsList(props) {
     const skillsList = props.skills.map((skill, index) => (
         <ListItem  key={skill.id}>
             <ListItemAvatar>
-                <Avatar sx={{backgroundColor: "#fff"}}>
+                <Avatar className={classes.skillIcons}>
                     <Icon iconName={skill.icon} iconCat={skill.iconCat} />
                 </Avatar>
             </ListItemAvatar>

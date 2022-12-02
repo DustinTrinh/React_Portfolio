@@ -2,8 +2,13 @@
     font-size: 14px;
 }
 
-.jobTimeline p{
+.schoolTimeline p{
     font-size: 20px;
+}
+
+.schoolTimeline h3{
+    color: #000000 !important;
+    font-weight: bold;
 }
 
 .workExperienceItem ul li{

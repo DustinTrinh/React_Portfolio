@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "./App.css";
-import NavBar from "./components/HomeSection/Landing_Page/JS/NavBar";
+import NavBar from "./components/HomeSection/LandingPage/JS/NavBar";
 
 function App() {
     return (

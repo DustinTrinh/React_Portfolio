@@ -81,7 +81,7 @@ export default [
         imgAlt: "Data Science Methodology"
     },
     {
-        id: "NaN",
+        id: "Does Not Apply _ 1",
         name: "Java 11+ Essential Training",
         provider: "LinkedIn",
         date: "November 2020",
@@ -90,7 +90,7 @@ export default [
         imgAlt: "Java 11+ Essential Training"
     },
     {
-        id: "NaN",
+        id: "Does Not Apply _ 2",
         name: "Java 8 Essential Training",
         provider: "LinkedIn",
         date: "July 2017",
