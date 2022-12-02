@@ -63,11 +63,11 @@ export default [
         url: "https://github.com/DustinTrinh/DataStructureAlgorithm_Study",
         techStack: {
             frontEnd: {
-                title: "Frontend",
+                title: "Front-End",
                 skills: ["None"],
             },
             backEnd: {
-                title: "Backend",
+                title: "Back-End",
                 skills: ["JavaScript"],
             },
             others: {
@@ -92,11 +92,11 @@ export default [
         url: "https://github.com/DustinTrinh/iOSDevelopment",
         techStack: {
             frontEnd: {
-                title: "Frontend",
+                title: "Front-End",
                 skills: ["SwiftUI"],
             },
             backEnd: {
-                title: "Backend",
+                title: "Back-End",
                 skills: ["SwiftUI", "Swift 4,5", "Firebase"],
             },
             others: {

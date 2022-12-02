@@ -28,7 +28,7 @@ const TechStackTable = (props) => {
                 <Table sx={{ maxHeight: 300 }} aria-label="simple table">
                     <TableHead>
                         <TableRow>
-                        <TableCell align="center">{title}</TableCell>
+                        <TableCell sx={{background: "#f0d3f7"}} align="center">{title}</TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
