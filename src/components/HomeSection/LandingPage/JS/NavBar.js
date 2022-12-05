@@ -1,8 +1,11 @@
 import React, { Fragment } from "react";
-import {  NavLink } from "react-router-dom";
+import {  NavLink, useLocation } from "react-router-dom";
 import classes from "../CSS/navbar.module.css";
 
 const NavBar = () => {
+
+    const location = useLocation();
+    const locationPath = "#" + (location.pathname);
     return (
         <Fragment>
                 <nav id="nav-wrap">
@@ -13,13 +16,13 @@ const NavBar = () => {
                     >
                         Show navigation
                     </a>
-                    <a className="mobile-btn" href="#" title="Hide navigation">
+                    <a className="mobile-btn" href={locationPath} title="Hide navigation">
                         Hide navigation
                     </a>
                     <ul id="nav" className="nav">
                         <li className="current">
                             <NavLink className="nav_link" to="/" style={ ({ isActive }) => ({ 
-                            color: isActive ? '#E55B00' : 'white' })}> Homeee </NavLink>
+                            color: isActive ? '#E55B00' : 'white' })}> Home </NavLink>
                         </li>
                         <li>
                             <NavLink className="nav_link" to="/projects" style={({ isActive }) => ({ 
