@@ -8,11 +8,14 @@ import HomePage from "./components/HomeSection/HomePage";
 import EducationPage from "./components/EducationSection/EducationPage";
 import ProjectPage from "./components/ProjectsSection/ProjectPage";
 import ExperiencePage from "./components/ExperiencesSection/ExperiencePage";
+import ScrollToTop from "./Helper/ScrollToTop";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
+        
         <BrowserRouter>
+        <ScrollToTop />
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/projects" element={<ProjectPage/>} />
