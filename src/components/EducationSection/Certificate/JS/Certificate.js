@@ -9,7 +9,7 @@ import classes from "../CSS/Certificates.module.css";
 
 const Certificate = (props) => {
     const certificateCard = props.certInfo.map((cert, index) => (
-        <Grid item xs={4} key={cert.id}>
+        <Grid item xs={12} sm={12} md={4} key={cert.id}>
             <Card>
                 <CardMedia
                     className={classes.certImg}

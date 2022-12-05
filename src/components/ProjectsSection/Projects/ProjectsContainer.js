@@ -34,7 +34,7 @@ export default function ProjectsContainer() {
             <Box id="projects_tab" sx={{ width: "100%", typography: "body1"}} className={classes.projectContainer}>
                 <TabContext value={value}>
                     <Grid container spacing={0}>
-                        <Grid item xs={2}>
+                        <Grid item xs={12} sm={2} md={2}>
                             <Box
                                 sx={{
                                     borderBottom: 1,
@@ -57,7 +57,7 @@ export default function ProjectsContainer() {
                             <Divider orientation="vertical" flexItem/>
                         </Grid>
                         
-                        <Grid item xs={10} className={contentClasses.contents}>
+                        <Grid xs={12} sm={10} md={10} className={contentClasses.contents}>
                             <TabPanel value="intro">
                                 <IntroductionTab/>
                             </TabPanel>

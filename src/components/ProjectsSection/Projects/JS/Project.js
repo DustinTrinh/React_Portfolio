@@ -39,17 +39,17 @@ const Project = (props) => {
                             spacing={2}
                             className={classes.techTable}
                         >
-                            <Grid item xs={4}>
+                            <Grid item xs={12} sm={12} md={4}>
                                 <TechStackTable
                                     stack={projectProps.techStack.frontEnd}
                                 />
                             </Grid>
-                            <Grid item xs={4}>
+                            <Grid item xs={12} sm={12} md={4}>
                                 <TechStackTable
                                     stack={projectProps.techStack.backEnd}
                                 />
                             </Grid>
-                            <Grid item xs={4}>
+                            <Grid item xs={12} sm={12} md={4}>
                                 <TechStackTable
                                     stack={projectProps.techStack.others}
                                 />
