@@ -19,7 +19,7 @@ const NavBar = () => {
                     <ul id="nav" className="nav">
                         <li className="current">
                             <NavLink className="nav_link" to="/" style={ ({ isActive }) => ({ 
-                            color: isActive ? '#E55B00' : 'white' })}> Home </NavLink>
+                            color: isActive ? '#E55B00' : 'white' })}> Homeee </NavLink>
                         </li>
                         <li>
                             <NavLink className="nav_link" to="/projects" style={({ isActive }) => ({ 
