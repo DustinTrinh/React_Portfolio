@@ -81,21 +81,21 @@ export default [
         imgAlt: "Data Science Methodology"
     },
     {
-        id: "NaN",
+        id: "Does Not Apply _ 1",
         name: "Java 11+ Essential Training",
         provider: "LinkedIn",
         date: "November 2020",
         url: "http://www.linkedin.com/learning/java-11-plus-essential-training",
-        img: "images/certs/Linkedin_logo.jpg",
+        img: "images/certs/LinkedIn_logo.jpg",
         imgAlt: "Java 11+ Essential Training"
     },
     {
-        id: "NaN",
+        id: "Does Not Apply _ 2",
         name: "Java 8 Essential Training",
         provider: "LinkedIn",
         date: "July 2017",
         url: "http://www.linkedin.com/learning/java-8-essential-training",
-        img: "images/certs/Linkedin_logo.jpg",
+        img: "images/certs/LinkedIn_logo.jpg",
         imgAlt: "Java 11+ Essential Training"
     },
 ];

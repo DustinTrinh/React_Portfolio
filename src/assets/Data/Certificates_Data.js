@@ -86,7 +86,7 @@ export default [
         provider: "LinkedIn",
         date: "November 2020",
         url: "http://www.linkedin.com/learning/java-11-plus-essential-training",
-        img: "images/certs/Linkedin_logo.jpg",
+        img: "images/certs/LinkedIn_logo.jpg",
         imgAlt: "Java 11+ Essential Training"
     },
     {
@@ -95,7 +95,7 @@ export default [
         provider: "LinkedIn",
         date: "July 2017",
         url: "http://www.linkedin.com/learning/java-8-essential-training",
-        img: "images/certs/Linkedin_logo.jpg",
+        img: "images/certs/LinkedIn_logo.jpg",
         imgAlt: "Java 11+ Essential Training"
     },
 ];

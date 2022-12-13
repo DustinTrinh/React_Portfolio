@@ -10,7 +10,7 @@ import classes from "./CSS/SkillsTab.module.css";
 const SkillsTab = () => {
     return (
         <Fragment>
-            <div id="SkillsTab"> 
+            <div> 
             <Grid container spacing={6}>
                 <Grid item xs={12} sm={12} md={4} >
                     <SkillsList skills={FE_Skills} title="Front End" category="FE"/>

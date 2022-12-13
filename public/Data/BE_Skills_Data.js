@@ -44,6 +44,12 @@ export default [
         icon: "SiPostgresql",
     },
     {
+        id: "PL/SQL",
+        name: "PL/SQL",
+        iconCat: "fa",
+        icon: "FaDatabase",
+    },
+    {
         id: "DSA",
         name: "Data Structure & Algorithm",
         iconCat: "fa",

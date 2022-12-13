@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 
 import BackgroundAnimation from "./BackgroundAnimation";
 import { FaArrowAltCircleDown } from "react-icons/fa";
+import { HashLink as Link } from 'react-router-hash-link';
 import "../CSS/text.css";
 import "animate.css/animate.min.css";
 import classes from "../CSS/LandingPage.module.css";
@@ -30,7 +31,8 @@ export default class LandingPage extends Component {
                                 <hr />
                             </div>
                             <div className = {`animate__animated animate__pulse animate__infinite ${classes.scrollForMore}`}>
-                                <a className="smoothscroll" href="#experiences_tab"><FaArrowAltCircleDown size={40}/></a>
+                                <Link className="smoothscroll"  to="#experiences_tab"><FaArrowAltCircleDown size={40}/></Link>
+                                
                             </div>
                         </div>
                         

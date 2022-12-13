@@ -20,7 +20,7 @@ export default function TabTest() {
     };
 
     return (
-        <Box sx={{ width: "100%", typography: "body1" }}>
+        <Box id="SkillsTab" sx={{ width: "100%", typography: "body1" }}>
             <TabContext value={value}>
                 <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
                     <TabList
